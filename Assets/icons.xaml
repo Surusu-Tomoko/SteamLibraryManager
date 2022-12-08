@@ -1,0 +1,33 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Geometry x:Key="left_arrowGeometry">F0 M400,400z M0,0z M274.957,1.098C266.687,4.25 265.315,5.547 178.293,92.462 130.475,140.221 90.118,181.08 88.61,183.259 82.265,192.433 81.983,206.887 87.961,216.601 92.808,224.48 264.021,394.255 269.922,397.034 292.998,407.902 320.779,388.058 315.789,364.271 313.612,353.893 316.364,356.922 235.212,275.58L159.796,199.989 235.605,124.018C317.09,42.36 314.127,45.628 315.863,35.494 319.502,14.248 294.847,-6.483 274.957,1.098</Geometry>
+  <DrawingGroup x:Key="left_arrowDrawingGroup" ClipGeometry="M0,0 V400 H400 V0 H0 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="0.49876078963279724" />
+    </DrawingGroup.Transform>
+    <DrawingGroup Opacity="1">
+      <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource left_arrowGeometry}" />
+    </DrawingGroup>
+  </DrawingGroup>
+  <DrawingImage x:Key="left_arrowDrawingImage" Drawing="{StaticResource left_arrowDrawingGroup}" />
+  <Geometry x:Key="checkGeometry">F0 M400,400z M0,0z M348.828,52.918C342.472,54.175,342.734,53.926,248.366,148.195L154.936,241.527 107.386,193.474C53.392,138.908 54.243,139.602 44.498,142.18 40.5,143.238 3.176,179.327 1.088,184.155 -0.446,187.7 -0.246,195.119 1.471,198.341 3.622,202.378 145.137,344.538 148.335,345.874 151.786,347.316 158.442,347.297 161.806,345.837 165.217,344.355 398.036,111.425 399.182,108.348 402.634,99.069 400.778,95.876 379.416,74.36 359.156,53.954 355.73,51.552 348.828,52.918</Geometry>
+  <DrawingGroup x:Key="checkDrawingGroup" ClipGeometry="M0,0 V400 H400 V0 H0 Z">
+    <DrawingGroup Opacity="1">
+      <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource checkGeometry}" />
+    </DrawingGroup>
+  </DrawingGroup>
+  <DrawingImage x:Key="checkDrawingImage" Drawing="{StaticResource checkDrawingGroup}" />
+  <Geometry x:Key="downloadGeometry">F0 M400,400z M0,0z M191.797,20.234C190.078,21.032 187.547,22.87 186.172,24.319 180.903,29.872 181.25,21.918 181.25,137.248L181.25,241.733 159.961,220.615C142.255,203.05 138.131,199.341 135.456,198.576 120.015,194.159 106.684,207.485 111.067,222.956 112.223,227.034 186.473,302.268 191.797,304.756 195.998,306.718 204.002,306.718 208.203,304.756 213.527,302.268 287.777,227.034 288.933,222.956 293.316,207.485 279.985,194.159 264.544,198.576 261.869,199.341 257.745,203.05 240.039,220.615L218.75,241.733 218.733,137.078C218.714,19.914 219.176,29.36 213.181,23.672 207.918,18.679 198.435,17.154 191.797,20.234 M29.297,182.708C25.306,184.525 20.652,189.675 19.539,193.506 18.923,195.624 18.74,219.951 18.907,277.734L19.141,358.984 21.439,363.672C24.374,369.658,30.35,375.636,36.328,378.564L41.016,380.859 200,380.859 358.984,380.859 363.672,378.561C369.654,375.628,375.628,369.654,378.561,363.672L380.859,358.984 381.093,277.734C381.26,219.951 381.077,195.624 380.461,193.506 376.89,181.219 358.984,177.003 349.319,186.172 343.409,191.78 343.786,186.122 343.767,269.336L343.75,343.75 200,343.75 56.25,343.75 56.233,269.336C56.214,186.122 56.591,191.78 50.681,186.172 45.437,181.197 35.979,179.664 29.297,182.708</Geometry>
+  <DrawingGroup x:Key="downloadDrawingGroup" ClipGeometry="M0,0 V400 H400 V0 H0 Z">
+    <DrawingGroup Opacity="1">
+      <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource downloadGeometry}" />
+    </DrawingGroup>
+  </DrawingGroup>
+  <DrawingImage x:Key="downloadDrawingImage" Drawing="{StaticResource downloadDrawingGroup}" />
+  <Geometry x:Key="right_arrowGeometry">F0 M400,400z M0,0z M106.178,1.439C91.743,7.238 82.239,22.163 84.392,35.649 86.042,45.979 82.03,41.545 164.364,124.02L240.208,199.992 165.109,275.191C112.857,327.514 89.457,351.46 88.191,353.906 73.248,382.767 106.163,412.934 133.02,394.992 141.25,389.493 311.241,218.142 313.248,213.321 316.844,204.686 316.667,193.921 312.804,186.247 309.153,178.992 134.727,5.624 128.125,2.688 121.537,-0.243 111.75,-0.799 106.178,1.439</Geometry>
+  <DrawingGroup x:Key="right_arrowDrawingGroup" ClipGeometry="M0,0 V400 H400 V0 H0 Z">
+    <DrawingGroup Opacity="1">
+      <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource right_arrowGeometry}" />
+    </DrawingGroup>
+  </DrawingGroup>
+  <DrawingImage x:Key="right_arrowDrawingImage" Drawing="{StaticResource right_arrowDrawingGroup}" />
+</ResourceDictionary>
